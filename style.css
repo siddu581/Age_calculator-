@@ -1,0 +1,124 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   background: linear-gradient(to top, rgb(22, 6, 65), rgb(0, 0, 0));
+   color: aliceblue;
+}
+.wrapper{
+    background: linear-gradient(to top, rgb(0, 0, 0), rgb(177, 12, 12));
+    padding: 30px;
+    border-radius: 18px;
+    box-sizing: 20px 30px 30px rgba(0 ,0 ,0 ,0,5);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+h1{
+    color: rgb(255, 235, 205);
+}
+label{
+    font-size: 1.3rem;
+    font-size: 25px;
+    margin-bottom: 10px;
+    display: block;
+    font-weight: bold;
+    color: #dde011;
+}
+
+input[type="date"] {
+    width: 70%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #947e38;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: large;
+}
+button{
+    border-radius: 4px;
+    height: 30px;
+    cursor: pointer;
+    font-weight: 100;
+    margin-top: 10px;
+    color: aliceblue;
+    background-color: rgb(66, 73, 66);
+}
+
+#rst{
+    margin-top: 20px;
+    font-size:1.5rem;
+    color: rgb(195, 197, 201);
+}
+
+@media (max-width:600px) {
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+       background: linear-gradient(to top, rgb(22, 6, 65), rgb(0, 0, 0));
+       /* background-color: #e7e4da; */
+
+       color: aliceblue;
+    }
+    .wrapper{
+        background: linear-gradient(to top, rgb(0, 0, 0), rgb(177, 12, 12));
+        padding: 30px;
+        border-radius: 18px;
+        box-sizing: 20px 30px 30px rgba(0 ,0 ,0 ,0,5);
+        backdrop-filter: blur(10px);
+        text-align: center;
+        max-width: 300px;
+        width: 100%;
+    }
+    h1{
+        color: rgb(255, 235, 205);
+    }
+    label{
+        font-size: 1.3rem;
+        font-size: 25px;
+        margin-bottom: 10px;
+        display: block;
+        font-weight: bold;
+        color: #dde011;
+    }
+    
+    input[type="date"] {
+        width: 70%;
+        padding: 10px;
+        margin: 10px 0;
+        background-color: #947e38;
+        cursor: pointer;
+        border: none;
+        border-radius: 10px;
+        text-align: center;
+        font-size: large;
+    }
+    button{
+        border-radius: 4px;
+        height: 30px;
+        cursor: pointer;
+        font-weight: 100;
+        margin-top: 10px;
+        color: rgb(235, 211, 0);
+        background-color: rgb(66, 73, 66);
+    }
+    
+    #rst{
+        margin-top: 20px;
+        font-size:1.5rem;
+        color: rgb(195, 197, 201);
+    }
+    
+}
